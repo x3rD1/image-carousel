@@ -3,7 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Image Carousel</title>
   <script defer src="main.js"></script></head>
-  <body></body>
+  <body>
+    <div class="carousel" data-carousel>
+      <button class="carousel-btn prev" data-carousel-btn="prev">
+        &#8656;
+      </button>
+      <button class="carousel-btn next" data-carousel-btn="next">
+        &#8658;
+      </button>
+
+      <div class="circles"></div>
+
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="69ffd9e775b46a081ba7.jpg" alt="Boa hancock" />
+        </li>
+        <li class="slide">
+          <img src="955273b50363b909d3c8.webp" alt="random anime girl" />
+        </li>
+        <li class="slide">
+          <img src="df9cb5fc115f53be1c89.jpg" alt="Cha hae In" />
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
